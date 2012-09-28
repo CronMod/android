@@ -16,15 +16,17 @@ Supported devices
 -----------------
 
 How to sync
-----------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
 
 To sync with CronMod, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
-To initialize your local repository using the CronMod manifest, open a terminal and use the commands below:
+To initialize your local repository using the CronMod manifest, open a terminal and 
+use the commands below:
 
 -    mkdir ~/bin && mkdir -p ~/android/system 
--    curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo && chmod a+x ~/bin/repo
+-    curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
+-    chmod a+x ~/bin/repo
 
 Reboot your pc then continue:
 
@@ -40,7 +42,7 @@ Download Prebuilts needed by the build:
 
 -    ~/android/system/vendor/cm/get-prebuilts
 
-----------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
 
 Building
 ---------------------------------------------------------------------------
