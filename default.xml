@@ -6,7 +6,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
-  <remote  name="github"
+  <remote  name="CyanogenMod"
            fetch=".."
            review="review.cyanogenmod.com" />
 
@@ -16,11 +16,11 @@
   <remote  name="djmesias"
            fetch="git://github.com/djMesias/" />
 
-  <remote  name="private"
-           fetch="ssh://git@github.com" />
+  <remote  name="github"
+           fetch="git://git@github.com" />
 
   <default revision="refs/heads/ics"
-           remote="github"
+           remote="CyanogenMod"
            sync-j="4" />
 
 <!-- CyanogenMod -->
