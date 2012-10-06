@@ -286,7 +286,7 @@
   <project path="packages/apps/FileManager" name="android_packages_apps_FileManager" remote="croniccorey" revision="ics" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="croniccorey" revision="ics" />
   <project path="vendor/cm" name="android_vendor_cm" remote="croniccorey" revision="ics" />
-  <project path="vendor/htc" name=" android_vendor_htc" remote="croniccorey" revision="ics" />
+  <project path="vendor/htc" name="android_vendor_htc" remote="croniccorey" revision="ics" />
 
 <!-- DjMesias -->
 
