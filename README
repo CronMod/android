@@ -66,9 +66,11 @@ CDMA:
 The finished rom will be located at:
 
 GSM:
-~/android/system/out/target/product/bravo/cm-9-XXXXX-UNOFFICIAL-bravo.zip
+~/android/system/out/target/product/bravo/cm-X.X.X-bravo-RC.zip
 
 CDMA:
-~/android/system/out/target/product/bravoc/cm-9-XXXXX-UNOFFICIAL-bravoc.zip
+~/android/system/out/target/product/bravoc/cm-X.X.X-bravoc-RC.zip
+
+*Please do not release builds of this rom without proper permission*
 
 ---------------------------------------------------------------------------
