@@ -206,7 +206,6 @@
   <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
-  <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
@@ -284,6 +283,7 @@
   <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="croniccorey" revision="ics" />
   <project path="frameworks/base" name="android_frameworks_base" remote="croniccorey" revision="ics" />
   <project path="kernel/htc/qsd8k" name="eternity-kernel" remote="croniccorey" revision="master" />
+  <project path="packages/apps/CMWallpapers" name="android_packages_apps_CMWallpapers" remote="croniccorey" revision="ics" />
   <project path="packages/apps/FileManager" name="android_packages_apps_FileManager" remote="croniccorey" revision="ics" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="croniccorey" revision="ics" />
   <project path="vendor/cm" name="android_vendor_cm" remote="croniccorey" revision="ics" />
