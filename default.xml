@@ -273,7 +273,7 @@
 
 <!-- CronicCorey -->
 
-  <project path="build" name="android_build" remote="croniccorey" revision="ics" >
+  <project path="build" name="android_build" remote="croniccorey" revision="ics">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="android" remote="croniccorey" revision="ics" />
