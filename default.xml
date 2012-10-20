@@ -286,6 +286,7 @@
   <project path="packages/apps/CMWallpapers" name="android_packages_apps_CMWallpapers" remote="croniccorey" revision="ics" />
   <project path="packages/apps/FileManager" name="android_packages_apps_FileManager-old" remote="croniccorey" revision="ics" /> <!-- Temporary -->
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="croniccorey" revision="ics" />
+  <project path="prebuilt/android-x86/toolchain/arm-eabi-4.4.5" name="linaro-4.4.5" remote="croniccorey" revision="master" />
   <project path="vendor/cm" name="android_vendor_cm" remote="croniccorey" revision="ics" />
   <project path="vendor/google" name="android_vendor_google" remote="croniccorey" revision="ics" />
   <project path="vendor/htc" name="android_vendor_htc" remote="croniccorey" revision="ics" />
