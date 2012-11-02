@@ -13,8 +13,11 @@
   <remote  name="croniccorey"
            fetch="git://github.com/croniccorey/" />
 
-  <remote  name="djmesias"
-           fetch="git://github.com/djMesias/" />
+  <remote  name="evervolv"
+           fetch="git://github.com/Evervolv/" />
+
+  <remote  name="spazedog"
+           fetch="git://github.com/SpazeDog/" />
 
   <remote  name="github"
            fetch="git://github.com" />
@@ -185,9 +188,6 @@
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
-  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -291,11 +291,17 @@
   <project path="vendor/google" name="android_vendor_google" remote="croniccorey" revision="ics" />
   <project path="vendor/htc" name="android_vendor_htc" remote="croniccorey" revision="ics" />
 
-<!-- DjMesias -->
+<!-- Evervolv -->
+  
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="evervolv" revision="ics" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="evervolv" revision="ics" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="evervolv" revision="ics" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="evervolv" revision="ics" />
+  <project path="vendor/qcom/opensource/omx/mm-core" name="android_vendor_qcom_opensource_omx_mm-core" remote="evervolv" revision="ics" />
+  <project path="vendor/qcom/opensource/omx/mm-video" name="android_vendor_qcom_opensource_omx_mm-video" remote="evervolv" revision="ics" />
 
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="djmesias" revision="esp-ics" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="djmesias" revision="esp-ics" />
-  <project path="vendor/qcom/opensource/omx/mm-core" name="android_vendor_qcom_opensource_omx_mm-core" remote="djmesias" revision="esp-ics" />
-  <project path="vendor/qcom/opensource/omx/mm-video" name="android_vendor_qcom_opensource_omx_mm-video" remote="djmesias" revision="esp-ics" />
+<!-- SpazeDog -->
+
+  <project path="hardware/ril" name="android_hardware_ril" remote="spazedog" revision="ics" />
 
 </manifest>
