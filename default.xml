@@ -16,14 +16,12 @@
   <remote  name="evervolv"
            fetch="git://github.com/Evervolv/" />
 
-  <remote  name="spazedog"
-           fetch="git://github.com/SpazeDog/" />
-
   <remote  name="github"
            fetch="git://github.com" />
 
   <default revision="refs/heads/ics"
            remote="CyanogenMod"
+           sync-c="true"
            sync-j="4" />
 
 <!-- CyanogenMod/AOSP -->
@@ -185,9 +183,6 @@
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
-  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
-  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
@@ -200,7 +195,6 @@
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" />
-  <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
@@ -254,6 +248,13 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="prebuilt" name="platform/prebuilt" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
+  <project path="sdk" name="CyanogenMod/android_sdk" />
+  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
+  <project path="system/core" name="CyanogenMod/android_system_core" />
+  <project path="system/extras" name="CyanogenMod/android_system_extras" />
+  <project path="system/netd" name="CyanogenMod/android_system_netd" />
+  <project path="system/su" name="CyanogenMod/android_system_su" />
+  <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="CyanogenMod/android_vendor_qcom_opensource_kernel-tests_mm-audio" />
   <project path="vendor/qcom/opensource/omx/mm-audio" name="CyanogenMod/android_vendor_qcom_opensource_omx_mm-audio" />
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" />
@@ -261,14 +262,6 @@
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
-  <project path="sdk" name="CyanogenMod/android_sdk" />
-  <project path="system/bluetooth" name="CyanogenMod/android_system_bluetooth" />
-  <project path="system/core" name="CyanogenMod/android_system_core" />
-  <project path="system/extras" name="CyanogenMod/android_system_extras" />
-  <project path="system/media" name="CyanogenMod/android_system_media" />
-  <project path="system/netd" name="CyanogenMod/android_system_netd" />
-  <project path="system/su" name="CyanogenMod/android_system_su" />
-  <project path="system/vold" name="CyanogenMod/android_system_vold" />
 
 <!-- CronicCorey -->
 
@@ -286,22 +279,23 @@
   <project path="packages/apps/FileManager" name="android_packages_apps_FileManager-old" remote="croniccorey" revision="ics" /> <!-- Temporary -->
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="croniccorey" revision="ics" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="croniccorey" revision="ics" />
-  <project path="prebuilt/android-x86/toolchain/arm-eabi-4.4.5" name="linaro-4.4.5" remote="croniccorey" revision="master" />
   <project path="vendor/cm" name="android_vendor_cm" remote="croniccorey" revision="ics" />
   <project path="vendor/google" name="android_vendor_google" remote="croniccorey" revision="ics" />
   <project path="vendor/htc" name="android_vendor_htc" remote="croniccorey" revision="ics" />
 
 <!-- Evervolv -->
-  
+
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="evervolv" revision="ics" />
+  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="evervolv" revision="ics" />
+  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="evervolv" revision="ics" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="evervolv" revision="ics" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="evervolv" revision="ics" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="evervolv" revision="ics" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="evervolv" revision="ics" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="evervolv" revision="ics" />
+  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="evervolv" revision="ics" />
+  <project path="system/media" name="android_system_media" remote="evervolv" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="android_vendor_qcom_opensource_omx_mm-core" remote="evervolv" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-video" name="android_vendor_qcom_opensource_omx_mm-video" remote="evervolv" revision="ics" />
-
-<!-- SpazeDog -->
-
-  <project path="hardware/ril" name="android_hardware_ril" remote="spazedog" revision="ics" />
 
 </manifest>
