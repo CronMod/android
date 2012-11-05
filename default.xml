@@ -6,7 +6,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
 
-  <remote  name="cyanogenmod"
+  <remote  name="CyanogenMod"
            fetch=".."
            review="review.cyanogenmod.com" />
 
@@ -20,7 +20,7 @@
            fetch="ssh://git@github.com" />
 
   <default revision="refs/heads/jellybean"
-           remote="cyanogenmod"
+           remote="CyanogenMod"
            sync-c="true"
            sync-j="4" />
 
