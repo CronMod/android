@@ -341,9 +341,9 @@
   <project path="device/htc/bravo" name="android_device_htc_bravo" remote="croniccorey" revision="jellybean" />
   <project path="device/htc/bravoc" name="android_device_htc_bravoc" remote="croniccorey" revision="jellybean" />
   <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="croniccorey" revision="jellybean" />
-<!--  <project path="frameworks/base" name="android_frameworks_base" remote="croniccorey" revision="jellybean" />
+<!--  <project path="frameworks/base" name="android_frameworks_base" remote="croniccorey" revision="jellybean" /> -->
   <project path="kernel/htc/qsd8k" name="eternity-kernel" remote="croniccorey" revision="jellybean" />
-  <project path="packages/apps/CMWallpapers" name="android_packages_apps_CMWallpapers" remote="croniccorey" revision="jellybean" />
+<!--  <project path="packages/apps/CMWallpapers" name="android_packages_apps_CMWallpapers" remote="croniccorey" revision="jellybean" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="croniccorey" revision="jellybean" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="croniccorey" revision="jellybean" />
   <project path="vendor/cm" name="android_vendor_cm" remote="croniccorey" revision="jellybean" />
