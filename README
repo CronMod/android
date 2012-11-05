@@ -1,5 +1,5 @@
 #################
-## CronMod-ICS ##
+## CronMod-JB ##
 #################
 
 Sources
@@ -31,7 +31,7 @@ use the commands below:
 Reboot your pc then continue:
 
 -    cd ~/android/system
--    repo init -u git://github.com/croniccorey/android.git -b ics
+-    repo init -u git://github.com/croniccorey/android.git -b jellybean
 
 Then to sync up:
 (This will take a little bit)
@@ -44,7 +44,7 @@ Download Prebuilts needed by the build:
 
 -------------------------------------------------------------------------------------
 
-Building
+Building (This is not accurate yet for jellybean)
 ---------------------------------------------------------------------------
 
 First, check for updates in the source:
