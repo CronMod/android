@@ -276,7 +276,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="croniccorey" revision="ics" />
   <project path="kernel/htc/qsd8k" name="eternity-kernel" remote="croniccorey" revision="ics" />
   <project path="packages/apps/CMWallpapers" name="android_packages_apps_CMWallpapers" remote="croniccorey" revision="ics" />
-  <project path="packages/apps/FileManager" name="android_packages_apps_FileManager-old" remote="croniccorey" revision="ics" /> <!-- Temporary -->
+  <project path="packages/apps/FileManager" name="android_packages_apps_FileManager" remote="croniccorey" revision="ics" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="croniccorey" revision="ics" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="croniccorey" revision="ics" />
   <project path="vendor/cm" name="android_vendor_cm" remote="croniccorey" revision="ics" />
