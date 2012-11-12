@@ -269,7 +269,6 @@
   <project path="packages/inputmethods/PinyinIME" name="CyanogenMod/android_packages_inputmethods_PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" />
   <project path="packages/providers/DrmProvider" name="CyanogenMod/android_packages_providers_DrmProvider" />
   <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" />
@@ -338,6 +337,7 @@
 <!--  <project path="packages/apps/CMWallpapers" name="android_packages_apps_CMWallpapers" remote="croniccorey" revision="jellybean" /> -->
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="croniccorey" revision="jellybean" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="croniccorey" revision="jellybean" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="croniccorey" revision="jellybean" />
   <project path="vendor/cm" name="android_vendor_cm" remote="croniccorey" revision="jellybean" />
 <!--  <project path="vendor/google" name="android_vendor_google" remote="croniccorey" revision="jellybean" /> -->
   <project path="vendor/htc" name="android_vendor_htc" remote="croniccorey" revision="jellybean" />
