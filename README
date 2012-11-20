@@ -1,11 +1,11 @@
-#################
-## CronMod-JB ##
-#################
+######################
+## CronMod-ICS-AOKP ##
+######################
 
 Sources
 ------------
--CyanogenMod
--CronicCorey
+-AOKP
+-CronMod
 -Evervolv
 ------------
 
@@ -31,46 +31,13 @@ use the commands below:
 Reboot your pc then continue:
 
 -    cd ~/android/system
--    repo init -u git://github.com/croniccorey/android.git -b jellybean
+-    repo init -u git://github.com/CronMod/android.git -b ics-aokp
 
 Then to sync up:
 (This will take a little bit)
 
 -    repo sync -j16
 
-Download Prebuilts needed by the build:
-
--    ~/android/system/vendor/cm/get-prebuilts
-
--------------------------------------------------------------------------------------
-
-Building (This is not accurate yet for jellybean)
----------------------------------------------------------------------------
-
-First, check for updates in the source:
-
--    cd ~/android/system && repo sync
-
-Second, configure the environment for the build process:
-
--    . build/envsetup.sh
-
-Third, build it:
-
-GSM:
--    brunch bravo
-
-CDMA:
--    brunch bravoc
-
-The finished rom will be located at:
-
-GSM:
-~/android/system/out/target/product/bravo/cm-X.X.X-bravo-XX.zip
-
-CDMA:
-~/android/system/out/target/product/bravoc/cm-X.X.X-bravoc-XX.zip
-
 *Please do not release builds of this rom without proper permission*
 
----------------------------------------------------------------------------
+-------------------------------------------------------------------------------------
