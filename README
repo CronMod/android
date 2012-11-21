@@ -1,10 +1,13 @@
-#################
-## CronMod-JB ##
-#################
+####################
+## CronMod-JB-4.2 ##
+####################
+
+## Please do not attempt to sync or build yet, IT WONT WORK ##
 
 Sources
 ------------
 -CyanogenMod
+-CronMod
 -CronicCorey
 -Evervolv
 ------------
@@ -31,7 +34,7 @@ use the commands below:
 Reboot your pc then continue:
 
 -    cd ~/android/system
--    repo init -u git://github.com/croniccorey/android.git -b jellybean
+-    repo init -u git://github.com/CronMod/android.git -b jellybean-4.2
 
 Then to sync up:
 (This will take a little bit)
@@ -44,7 +47,7 @@ Download Prebuilts needed by the build:
 
 -------------------------------------------------------------------------------------
 
-Building (This is not accurate yet for jellybean)
+Building (This is not accurate yet for jellybean-4.2)
 ---------------------------------------------------------------------------
 
 First, check for updates in the source:
