@@ -33,7 +33,7 @@ use the commands below:
 Reboot your pc then continue:
 
 -    cd ~/android/system
--    repo init -u git://github.com/croniccorey/android.git -b jellybean
+-    repo init -u git://github.com/croniccorey/android.git -b gingerbread
 
 Then to sync up:
 (This will take a little bit)

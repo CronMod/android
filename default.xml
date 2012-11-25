@@ -239,6 +239,8 @@
   <project path="vendor/tmobile/themes/Cyanbread" name="CyanogenMod/android_vendor_tmobile_themes_Cyanbread" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
 
-  <project path="android" name="CyanogenMod/android" />
+<!-- CronMod -->
+
+  <project path="android" name="android" remote="CronMod" revision="gingerbread" />
 
 </manifest>
