@@ -17,6 +17,9 @@
   <remote  name="CronMod"
            fetch="git://github.com/CronMod/" />
 
+  <remote  name="nexus"
+           fetch="git://github.com/neXusPRIME/" />
+
   <remote  name="CronicCorey"
            fetch="git://github.com/croniccorey/" />
 
@@ -255,7 +258,7 @@
   <project path="system/extras" name="CyanogenMod/android_system_extras" remote="cm" revision="ics" />
   <project path="system/netd" name="platform/system/netd" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="system/vold" name="AOKP/system_vold" />
-  <project path="vendor/aokp" name="AOKP/vendor_aokp_ics" />
+  <project path="vendor/aokp" name="vendor_aokp" remote="nexus" revision="ics-aokp" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" />
   <project path="vendor/qcom/opensource/v8" name="AOKP/android_vendor_qcom_opensource_v8" />
   <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="AOKP/vendor_qcom_opensource_kernel-tests_mm-audio" />
