@@ -8,7 +8,11 @@
 
   <remote  name="AOKP"
            fetch=".."
+           revision="ics"
            review="gerrit.aokp.co" />
+
+  <remote  name="cm"
+           fetch="https://github.com/" />
 
   <remote  name="CronMod"
            fetch="git://github.com/CronMod/" />
@@ -33,7 +37,7 @@
   <project path="bionic" name="AOKP/bionic" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
-  <project path="bootable/recovery" name="AOKP/android_bootable_recovery" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-9.0.0" />
   <project path="cts" name="platform/cts" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="dalvik" name="AOKP/platform_dalvik" />
   <project path="development" name="AOKP/platform_development" />
@@ -50,7 +54,7 @@
   <project path="external/apache-http" name="platform/external/apache-http"  remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="external/apache-xml" name="platform/external/apache-xml"  remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="external/astl" name="platform/external/astl" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
-  <project path="external/bash" name="AOKP/android_external_bash" />
+  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="cm" revision="ics" />
   <project path="external/bison" name="platform/external/bison" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="external/blktrace" name="platform/external/blktrace" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="external/bluetooth/bluez" name="AOKP/external_bluetooth_bluez" />
@@ -103,7 +107,7 @@
   <project path="external/libffi" name="platform/external/libffi" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="external/libgsm" name="platform/external/libgsm" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="external/liblzf" name="platform/external/liblzf" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
-  <project path="external/libncurses" name="AOKP/android_external_libncurses" />
+  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses"  remote="cm" revision="ics" />
   <project path="external/libnfc-nxp" name="platform/external/libnfc-nxp" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="external/libnl-headers" name="platform/external/libnl-headers" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="external/libpcap" name="AOKP/external_libpcap" />
@@ -115,7 +119,7 @@
   <project path="external/libyuv" name="platform/external/libyuv" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="external/llvm" name="AOKP/external_llvm" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
-  <project path="external/lzo" name="AOKP/android_external_lzo" />
+  <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="cm" revision="ics" />
   <project path="external/markdown" name="platform/external/markdown" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="external/mesa3d" name="AOKP/external_mesa3d" />
   <project path="external/mksh" name="platform/external/mksh" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
@@ -128,8 +132,8 @@
   <project path="external/oauth" name="platform/external/oauth" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="external/opencv" name="platform/external/opencv" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="external/openssl" name="AOKP/external_openssl" />
-  <project path="external/openvpn" name="AOKP/android_external_openvpn" />
-  <project path="external/oprofile" name="AOKP/android_external_oprofile" />
+  <project path="external/openvpn" name="CyanogenMod/android_external_openvpn" remote="cm" revision="ics" />
+  <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" remote="cm" revision="ics"  />
   <project path="external/pcre" name="platform/external/pcre" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="external/ping" name="AOKP/external_ping" />
   <project path="external/ping6" name="AOKP/external_ping6" />
@@ -155,7 +159,7 @@
   <project path="external/tinyalsa" name="platform/external/tinyalsa" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="external/tinyxml" name="platform/external/tinyxml" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="external/tremolo" name="AOKP/external_tremolo" />
-  <project path="external/v8" name="AOKP/android_external_v8" />
+  <project path="external/v8" name="CyanogenMod/android_external_v8" remote="cm" revision="ics"/>
   <project path="external/valgrind" name="platform/external/valgrind" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="external/webkit" name="AOKP/external_webkit" />
   <project path="external/webp" name="platform/external/webp" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
@@ -166,10 +170,10 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="external/yaffs2" name="AOKP/external_yaffs2" />
   <project path="external/zlib" name="AOKP/external_zlib" />
-  <project path="frameworks/base" name="AOKP/frameworks_base" />
+  <project path="frameworks/base" name="AOKP/frameworks_base_disabled" />
   <project path="frameworks/compile/libbcc" name="AOKP/android_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
-  <project path="frameworks/compile/slang" name="AOKP/android_frameworks_compile_slang" />
+  <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" remote="cm" revision="ics" />
   <project path="frameworks/ex" name="AOKP/frameworks_ex" />
   <project path="frameworks/media/libvideoeditor" name="platform/frameworks/media/libvideoeditor" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
@@ -179,7 +183,7 @@
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="frameworks/support" name="platform/frameworks/support" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="hardware/alsa/sound" name="AOKP/hardware_alsa_sound" />
-  <project path="hardware/atheros/wlan" name="AOKP/android_hardware_atheros_wlan" />
+  <project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" remote="cm" revision="ics" />
   <project path="hardware/cm" name="AOKP/hardware_cm" />
   <project path="hardware/broadcom/wlan" name="AOKP/android_hardware_broadcom_wlan" remote="AOKP" revision="ics" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
@@ -244,31 +248,31 @@
   <project path="packages/wallpapers/MusicVisualization" name="platform/packages/wallpapers/MusicVisualization" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
-  <project path="prebuilt" name="AOKP/prebuilt" />
+  <project path="prebuilt" name="AOKP/prebuilt_disabled" />
   <project path="sdk" name="platform/sdk" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="system/bluetooth" name="AOKP/system_bluetooth" />
   <project path="system/core" name="AOKP/system_core" />
-  <project path="system/extras" name="AOKP/android_system_extras" />
+  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="cm" revision="ics" />
   <project path="system/netd" name="platform/system/netd" remote="AOSP" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="system/vold" name="AOKP/system_vold" />
   <project path="vendor/aokp" name="AOKP/vendor_aokp_ics" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" />
   <project path="vendor/qcom/opensource/v8" name="AOKP/android_vendor_qcom_opensource_v8" />
   <project path="vendor/qcom/opensource/kernel-tests/mm-audio" name="AOKP/vendor_qcom_opensource_kernel-tests_mm-audio" />
-  <project path="external/busybox" name="AOKP/android_external_busybox" />
-  <project path="system/su" name="AOKP/android_system_su" />
-  <project path="packages/apps/Superuser" name="AOKP/android_packages_apps_Superuser" />
-  <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" />
-  <project path="packages/apps/Trebuchet" name="AOKP/android_packages_apps_Trebuchet" />
-  <project path="packages/apps/GanOptimizer" name="AOKP/android_packages_apps_GanOptimizer" />
-  <project path="packages/apps/AppWidgetPicker" name="AOKP/packages_apps_AppWidgetPicker" />
-  <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers" />
-  <project path="vendor/tmobile/themes/Achromatic" name="AOKP/android_vendor_tmobile_themes_Achromatic" />
-  <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="AOKP/android_vendor_tmobile_libs_com.tmobile.themes" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="AOKP/android_vendor_tmobile_providers_ThemeManager" />
-  <project path="vendor/tmobile/products/themes" name="AOKP/android_vendor_tmobile_products_themes" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="ics" />
+  <project path="system/su" name="AOKP/android_system_su" remote="cm" revision="ics" />
+  <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="cm" revision="ics" />
+  <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" remote="cm" revision="ics" />
+  <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="cm" revision="ics" />
+  <project path="packages/apps/GanOptimizer" name="CyanogenMod/android_packages_apps_GanOptimizer" remote="cm" revision="gb-release-7.2" />
+  <project path="packages/apps/AppWidgetPicker" name="AOKP/packages_apps_AppWidgetPicker" remote="cm" revision="ics" />
+  <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers" remote="cm" revision="ics" />
+  <project path="vendor/tmobile/themes/Achromatic" name="AOKP/android_vendor_tmobile_themes_Achromatic" remote="cm" revision="ics" />
 
+  <project name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" path="vendor/tmobile/apps/ThemeChooser" revision="refs/heads/ics" remote="cm" />
+  <project name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" path="vendor/tmobile/libs/com.tmobile.themes" revision="refs/heads/ics" remote="cm" />
+  <project name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" path="vendor/tmobile/providers/ThemeManager" revision="refs/heads/ics" remote="cm" />
+  <project name="CyanogenMod/android_vendor_tmobile_products_themes" path="vendor/tmobile/products/themes" revision="refs/heads/ics" remote="cm" />
 <!-- CronMod -->
 
   <project path="android" name="android" remote="CronMod" revision="ics-aokp" />
