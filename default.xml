@@ -8,8 +8,7 @@
 
   <remote  name="AOKP"
            fetch=".."
-           review="gerrit.aokp.co"
-           revision="ics" />
+           review="gerrit.aokp.co" />
 
   <remote  name="CronMod"
            fetch="git://github.com/CronMod/" />
