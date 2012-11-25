@@ -14,7 +14,7 @@
            fetch="git://github.com/CronMod/" />
 
   <remote  name="CronicCorey"
-           fetch="git://github.com/CronicCorey/" />
+           fetch="git://github.com/croniccorey/" />
 
   <remote  name="Evervolv"
            fetch="git://github.com/Evervolv/" />
