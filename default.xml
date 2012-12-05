@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- CronMod JB 4.2 -->
+<!-- CronMod JB 4.2.1 -->
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com" />
@@ -14,10 +14,10 @@
            fetch="git://github.com/CronMod/" />
 
   <!-- <remote  name="CronicCorey"
-           fetch="git://github.com/croniccorey/" />
+           fetch="git://github.com/croniccorey/" /> -->
 
   <remote  name="Evervolv"
-           fetch="git://github.com/Evervolv/" /> -->
+           fetch="git://github.com/Evervolv/" />
 
   <remote  name="github"
            fetch="ssh://git@github.com" />
@@ -246,10 +246,10 @@
   <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" />
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
   <project path="gdk" name="platform/gdk" remote="aosp" revision="jb-mr1-release" />
-  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
+  <!-- <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" /> -->
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" />
-  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
+  <!-- <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
   <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" />
@@ -263,11 +263,11 @@
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" />
-  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" />
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" /> -->
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
-  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
+  <!-- <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" /> -->
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" />
@@ -390,13 +390,13 @@
 
 <!-- CronicCorey -->
 
- <!-- <project path="kernel/htc/qsd8k" name="eternity-kernel" remote="CronicCorey" revision="jellybean-4.2" /> -->
+ <!-- <project path="kernel/htc/qsd8k" name="eternity-kernel" remote="CronicCorey" revision="jellybean" /> -->
 
 <!-- Evervolv -->
 
   <!-- <project path="frameworks/av" name="android_frameworks_av" remote="Evervolv" revision="jellybean" />
   <project path="frameworks/native" name="android_frameworks_native" remote="Evervolv" revision="jellybean" />
-  <project path="frameworks/rs" name="android_frameworks_rs" remote="Evervolv" revision="jellybean" /> 
+  <project path="frameworks/rs" name="android_frameworks_rs" remote="Evervolv" revision="jellybean" /> -->
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="Evervolv" revision="jellybean"/>
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="Evervolv" revision="jellybean"/>
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="Evervolv" revision="jellybean"/>
@@ -405,6 +405,7 @@
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="Evervolv" revision="jellybean"/>
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="Evervolv" revision="jellybean" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="Evervolv" revision="jellybean" />
+  <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="Evervolv" revision="jellybean" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="Evervolv" revision="jellybean"/>
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="Evervolv" revision="jellybean"/>
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="Evervolv" revision="jellybean"/>
@@ -413,7 +414,8 @@
   <project path="hardware/qcom/sensors" name="android_hardware_qcom_sensors" remote="Evervolv" revision="jellybean"/>
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="Evervolv" revision="jellybean"/>
   <project path="hardware/ril" name="android_hardware_ril" remote="Evervolv" revision="jellybean"/>
-  <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="Evervolv" revision="jellybean" />
+  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="Evervolv" revision="jellybean"/>
+  <!-- <project path="packages/apps/Camera" name="android_packages_apps_Camera" remote="Evervolv" revision="jellybean" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="Evervolv" revision="jellybean" />
   <project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="Evervolv" revision="jellybean" />
   <project path="system/media" name="android_system_media" remote="Evervolv" revision="jellybean" /> -->
