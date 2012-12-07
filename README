@@ -5,6 +5,7 @@
 Sources
 ------------
 -CyanogenMod
+-CronMod
 -CronicCorey
 -Evervolv
 ------------
@@ -31,7 +32,7 @@ use the commands below:
 Reboot your pc then continue:
 
 -    cd ~/android/system
--    repo init -u git://github.com/croniccorey/android.git -b ics
+-    repo init -u git://github.com/CronMod/android.git -b ics
 
 Then to sync up:
 (This will take a little bit)
