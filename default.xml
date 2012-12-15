@@ -22,7 +22,7 @@
   <remote  name="github"
            fetch="ssh://git@github.com" />
 
-  <default revision="refs/heads/mr1-staging"
+  <default revision="refs/heads/cm-10.1"
            remote="CyanogenMod"
            sync-c="true"
            sync-j="4" />
