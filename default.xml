@@ -384,13 +384,15 @@
 <!-- CronMod -->
 
   <project path="android" name="android" remote="CronMod" revision="jellybean-4.2" />
-  <!-- <project path="device/htc/bravo" name="android_device_htc_bravo" remote="CronMod" revision="jellybean-4.2" />
-  <project path="device/htc/bravoc" name="android_device_htc_bravoc" remote="CronMod" revision="jellybean-4.2" />
-  <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="CronMod" revision="jellybean-4.2" /> -->
+<!-- BSP is not ready -->
+  <project path="device/htc/bravo" name="android_device_htc_bravo" remote="CronMod" revision="jellybean" />
+  <project path="device/htc/bravoc" name="android_device_htc_bravoc" remote="CronMod" revision="jellybean" />
+  <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="CronMod" revision="jellybean" />
+  <project path="vendor/htc" name="android_vendor_htc" remote="CronMod" revision="jellybean" />
 
 <!-- CronicCorey -->
 
- <!-- <project path="kernel/htc/qsd8k" name="eternity-kernel" remote="CronicCorey" revision="jellybean" /> -->
+  <project path="kernel/htc/qsd8k" name="eternity-kernel" remote="CronicCorey" revision="jellybean" />
 
 <!-- Evervolv -->
 
