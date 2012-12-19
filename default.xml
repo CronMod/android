@@ -179,6 +179,8 @@
   <project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
   <project path="hardware/invensense" name="platform/hardware/invensense" remote="AOSP" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" />
@@ -269,11 +271,6 @@
   <project path="system/su" name="CyanogenMod/android_system_su" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
 
-<!-- Testing -->
-
-  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" />
-  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
-
 <!-- CronMod -->
 
   <project path="build" name="android_build" remote="CronMod" revision="ics">
@@ -287,8 +284,6 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="CronMod" revision="ics" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="CronMod" revision="ics" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="CronMod" revision="ics" />
-  <!-- <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="CronMod" revision="ics" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="CronMod" revision="ics" /> -->
   <project path="packages/apps/CMWallpapers" name="android_packages_apps_CMWallpapers" remote="CronMod" revision="ics" />
   <project path="packages/apps/FileManager" name="android_packages_apps_FileManager" remote="CronMod" revision="ics" />
   <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="CronMod" revision="ics" />
