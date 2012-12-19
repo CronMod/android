@@ -7,7 +7,6 @@ Sources
 -CyanogenMod
 -CronMod
 -CronicCorey
--Evervolv
 ------------
 
 Supported devices
@@ -17,7 +16,7 @@ Supported devices
 -----------------
 
 How to sync
--------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
 
 To sync with CronMod, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
@@ -43,10 +42,10 @@ Download Prebuilts needed by the build:
 
 -    ~/android/system/vendor/cm/get-prebuilts
 
--------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
 
 Building
----------------------------------------------------------------------------
+--------------------------------------------------------------------
 
 First, check for updates in the source:
 
@@ -74,4 +73,4 @@ CDMA:
 
 *Please do not release builds of this rom without proper permission*
 
----------------------------------------------------------------------------
+--------------------------------------------------------------------
