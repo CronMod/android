@@ -1,78 +1,10 @@
-################
-## CronMod-JB ##
-################
+#########################
+## CronMod-ics-testing ##
+#########################
 
-## Please do not attempt to sync or build yet, IT WONT WORK ##
+## Please do not attempt to sync or build, IT WONT WORK ##
 
-Sources
-------------
--CyanogenMod
--CronMod
--CronicCorey
--Evervolv
-------------
-
-Supported devices
------------------
--HTC Bravo
--HTC Bravoc
------------------
-
-How to sync
------------------------------------------------------------------------------------
-
-To sync with CronMod, you'll need to get
-familiar with [Git and Repo](http://source.android.com/download/using-repo).
-
-To initialize your local repository using the CronMod manifest, open a terminal and 
-use the commands below:
-
--    mkdir ~/bin && mkdir -p ~/android/system 
--    curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
--    chmod a+x ~/bin/repo
-
-Reboot your pc then continue:
-
--    cd ~/android/system
--    repo init -u git://github.com/CronMod/android.git -b jellybean
-
-Then to sync up:
-(This will take a little bit)
-
--    repo sync -j16
-
-Download Prebuilts needed by the build:
-
--    ~/android/system/vendor/cm/get-prebuilts
-
------------------------------------------------------------------------------------
-
-Building
 --------------------------------------------------------------------
-
-First, check for updates in the source:
-
--    cd ~/android/system && repo sync
-
-Second, configure the environment for the build process:
-
--    . build/envsetup.sh
-
-Third, build it:
-
-GSM:
--    brunch bravo
-
-CDMA:
--    brunch bravoc
-
-The finished rom will be located at:
-
-GSM:
-~/android/system/out/target/product/bravo/cm-X.X.X-bravo-XX.zip
-
-CDMA:
-~/android/system/out/target/product/bravoc/cm-X.X.X-bravoc-XX.zip
 
 *Please do not release builds of this rom without proper permission*
 
