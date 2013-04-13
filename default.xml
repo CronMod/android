@@ -171,7 +171,6 @@
   <project path="packages/apps/CMScreenshot" name="CyanogenMod/android_packages_apps_CMScreenshot" />
   <project path="packages/apps/CMStats" name="CyanogenMod/android_packages_apps_CMStats" />
   <project path="packages/apps/CMUpdateNotify" name="CyanogenMod/android_packages_apps_CMUpdateNotify" />
-  <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/CMWimaxSettings" name="CyanogenMod/android_packages_apps_CMWimaxSettings" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
@@ -248,9 +247,9 @@
   <project path="device/htc/dream_sapphire" name="android_device_htc_dream_sapphire" remote="CronMod" revision="gb" />
   <!-- <project path="device/htc/qsd8k-common" name="android_device_htc_qsd8k-common" remote="CronMod" revision="gb" /> -->
   <project path="device/htc/sapphire" name="android_device_htc_sapphire" remote="CronMod" revision="gb" /> -->
-  <!-- <project path="frameworks/base" name="android_frameworks_base" remote="CronMod" revision="gingerbread" />
-  <project path="packages/apps/CMWallpapers" name="android_packages_apps_CMWallpapers" remote="CronMod" revision="gingerbread" />
-  <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="CronMod" revision="gingerbread" />
+  <!-- <project path="frameworks/base" name="android_frameworks_base" remote="CronMod" revision="gingerbread" /> -->
+  <project path="packages/apps/CMWallpapers" name="android_packages_apps_CMWallpapers" remote="CronMod" revision="gb" />
+  <!-- <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="CronMod" revision="gingerbread" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="CronMod" revision="gingerbread" />
   <project path="vendor/cyanogen" name="android_vendor_cyanogen" remote="CronMod" revision="gingerbread" />
   <project path="vendor/google" name="android_vendor_google" remote="CronMod" revision="gingerbread" />
