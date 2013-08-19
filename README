@@ -1,26 +1,23 @@
 ########################
-## CronMod-GB --WIP-- ##
+##      AOSP-WIP      ##
 ########################
 
 Sources
 ------------
--CyanogenMod
+-Google
 -CronMod
 -CronicCorey
 ------------
 
 Supported devices
 -----------------
--HTC Bravo
--HTC Bravoc
--HTC Sapphire
--HTC Trout
+
 -----------------
 
 How to sync
 -----------------------------------------------------------------------------------
 
-To sync with CronMod, you'll need to get
+To sync with CronMod-AOSP, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the CronMod manifest, open a terminal and
@@ -33,52 +30,16 @@ use the commands below:
 Reboot your pc then continue:
 
 -    cd ~/android/system
--    repo init -u git://github.com/croniccorey/android.git -b gb
+-    repo init -u git://github.com/croniccorey/android.git -b AOSP
 
 Then to sync up:
 (This will take a little bit)
 
 -    repo sync -j16
 
-Download Prebuilts needed by the build:
-
--    ~/android/system/vendor/cm/get-prebuilts
-
 -----------------------------------------------------------------------------------
 
 Building
 --------------------------------------------------------------------
-
-First, check for updates in the source:
-
--    cd ~/android/system && repo sync
-
-Second, configure the environment for the build process:
-
--    . build/envsetup.sh
-
-Third, build it:
-
-Bravo
------
-GSM:
--    brunch bravo
-
-CDMA:
--    brunch bravoc
-
-Sapphire NR
------------
--    brunch sapphire
-
-Trout/Sapphire OR
------------------
--    brunch dream_sapphire
-
-The finished rom will be located at:
-
-~/android/system/out/target/product/XXXX/cm-1.X.X-XXXX-XX.zip
-
-*Please do not release builds of this rom without proper permission*
 
 --------------------------------------------------------------------
