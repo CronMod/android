@@ -2,26 +2,32 @@
 ##      AOSP-WIP      ##
 ########################
 
+## Please do not attempt to sync or build yet, IT WONT WORK ##
+
 Sources
 ------------
 -Google
 -CronMod
+-CyanogenMod
 -CronicCorey
 ------------
 
 Supported devices
 -----------------
-
+-HTC Bravo
+-HTC Bravoc
+-Samsung Infuse4g
+-Maybe More...
 -----------------
 
 How to sync
------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
 To sync with CronMod-AOSP, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
-To initialize your local repository using the CronMod manifest, open a terminal and
-use the commands below:
+To initialize your local repository using the CronMod manifest, open a terminal
+and use the commands below:
 
 -    mkdir ~/bin && mkdir -p ~/android/system 
 -    curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
@@ -37,7 +43,7 @@ Then to sync up:
 
 -    repo sync -j16
 
------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
 Building
 --------------------------------------------------------------------

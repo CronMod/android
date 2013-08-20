@@ -4,13 +4,21 @@
 <!-- CronMod AOSP -->
 
   <remote  name="AOSP"
-           fetch="https://android.googlesource.com/" />
+           fetch="https://android.googlesource.com/"
+           review="https://android-review.googlesource.com/" />
 
   <remote  name="CronMod"
            fetch="git://github.com/CronMod/" />
 
-<!--  <remote  name="CronicCorey"
+<!--  <remote  name="CyanogenMod"
+           fetch="git://github.com/CyanogenMod/"
+           review="review.cyanogenmod.org" />
+
+  <remote  name="CronicCorey"
            fetch="git://github.com/croniccorey/" /> -->
+
+  <remote  name="GitHub"
+           fetch="ssh://git@github.com" />
 
   <default revision="refs/tags/android-4.3_r2.1"
            remote="AOSP"
@@ -397,6 +405,8 @@
 <!-- CronMod -->
 
   <project path="android" name="android" remote="CronMod" revision="AOSP" />
+
+<!-- CyanogenMod -->
 
 <!-- CronicCorey -->
 
